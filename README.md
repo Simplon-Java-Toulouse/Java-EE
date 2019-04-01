@@ -64,7 +64,8 @@ NB : Utiliser le fichier Web.xml pour configurer l'accès à votre base de donn�
 1- veille sur les spécifications générales ou fonctionnelles
 2- EL & JSTL
 
-*RETOUR EN GROUPE/SCRUM*
+*RETOUR DANS VOS GROUPE UTILISANT SCRUM CETTE FOIS-CI : DEUXIEME SPRINT*
+
 Créer un projet "OnlineBank" qui doit contenir les couches Dao et Métier de votre projet Bank
 Il faut ici développer la couche Web !
 
@@ -82,17 +83,19 @@ Voir les diagrammes de classes ci dessous :
 
 ![center](/diagram.png)
 
-20.2 Il y a 2 types d'utilisateurs, admin ou user, pour le moment concentrons nous sur le deuxième qui peut consulté les comptes aussi ajouter une table en base qui correspond, elle ressemble fortement à T_Users que nous avons déjà rencontré.
+20.2 Il y a 2 types d'utilisateurs, admin ou user, pour le moment concentrons nous sur le deuxième qui peut consulter les comptes aussi ajouter une table en base qui corresponde, elle ressemble fortement à T_Users que nous avons déjà rencontré.
 
 20.3 Votre appli débutera donc par une demande d'authentification et devra ressembler à cela dans un premier temps :
 
 ![center](/onlineBank.png)
 
+NB : COMMENCER PAR ENUMERER LES TACHES (POST IT)
+
 **Vendredi**
 1- Spécifications techniques ou conception détaillée
 2- Attaques XSS
 
-Terminer tous les travaux de la semaine et envoyer sur Github
+Terminer tous les travaux de la semaine et envoyer sur Github au plutard dimanche minuit
 
 Préparation OPQUAST
 
