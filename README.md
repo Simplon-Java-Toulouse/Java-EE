@@ -15,7 +15,8 @@ Téléchargement et intégration de Tomcat à Eclipse + Crée un nouveau WorkSpa
 17.2 Réaliser votre 1ère Servlet dans un projet javaJEE, ajouter le package co.simplon.web, puis insérer donc votre servlet Login.java en prenant soin d'y associer l'url mapping "/login". Executer votre programme, qu'observez vous ?
 
 17.3 Ajouter à votre servlet tout ce qui vous permettra d'afficher une page html complète contenant les balises indispensables ainsi qu'un titre avec un message de bienvenue + date + inviter l'utilisateur à s'identifier en saisissant Login + password comme sur l'image :
- ![center](/home/elbabili/Boostnote/notes/log.png)
+
+ ![center](/log.png)
 
 17.4 Au clic, si le login et le password correspondent à ceux que vous avez écrit en dur dans votre servlet, afficher connecté sinon revenir sur votre formulaire !
 
@@ -46,11 +47,12 @@ NB : Votre servlet "Controleur.java" ne doit contenir que du code java in fine e
 2- WebListener/WebFilter...
 
 Ce petit programme est une synthèse de tout ce que nous avons vu. Il faudra proposer à l'utilisateur de saisir login + pwd, s'il existe dans la table des utilisateurs de la base de donnée WebShop, il aura accès à notre petite boutique en ligne qui affiche les articles de la table des articles qu'on peut parcourir grâce à aux boutons Suivant et Précédent :
- ![center](/home/elbabili/Boostnote/notes/badlog.png)
+
+ ![center](/badlog.png)
  
  Et si vous êtes bien un des utilisateurs en base qui a accés, vous pourrez parcourir les articles comme ici :
  
- ![center](/home/elbabili/Boostnote/notes/panier.png)
+ ![center](/panier.png)
 
 
 Pour résumé, la servlet Controleur reçoit les demandes de connection, si c'est bon, elle renvoi vers une page jsp qui affichera les articles.
@@ -78,13 +80,13 @@ Il faut ici développer la couche Web !
 
 Voir les diagrammes de classes ci dessous :
 
-![center](/home/elbabili/Boostnote/notes/diagram.png)
+![center](/diagram.png)
 
 20.2 Il y a 2 types d'utilisateurs, admin ou user, pour le moment concentrons nous sur le deuxième qui peut consulté les comptes aussi ajouter une table en base qui correspond, elle ressemble fortement à T_Users que nous avons déjà rencontré.
 
 20.3 Votre appli débutera donc par une demande d'authentification et devra ressembler à cela dans un premier temps :
 
-![center](/home/elbabili/Boostnote/notes/onlineBank.png)
+![center](/onlineBank.png)
 
 **Vendredi**
 1- Spécifications techniques ou conception détaillée
