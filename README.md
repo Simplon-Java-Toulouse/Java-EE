@@ -2,6 +2,7 @@ Java EE
 ===
 
 **Lundi**
+
 veille sur java EE(Servlet & Jsp)
 
 Demo projet Bank par groupe
@@ -27,6 +28,7 @@ Téléchargement et intégration de Tomcat à Eclipse + Crée un nouveau WorkSpa
 Que Constatez vous ?
 
 **Mardi**
+
 veille sur le protocole Http & le pattern MVC
 
 19.1 En vous inspirant du projet précédent, réaliser un nouveau projet "Mvc" par ex et mettez en oeuvre le pattern Mvc de sorte que l'utilisateur puisse ouvrir une session si login + password ok. Vous ouvrirez une nouvelle page Connected.jsp qui affichera un message de bienvenu ...
@@ -43,6 +45,7 @@ NB : Votre servlet "Controleur.java" ne doit contenir que du code java in fine e
 19.5 Utiliser le mécanisme des web Listener pour compter le nombre de sessions en court et trouver un moyen de limiter la durée d'une session à 1 minute par ex pour vérifier si le mécanisme fonctionne.
 
 **Mercredi**
+
 1- veille sur l'expression des besoins et Cahier des charges
 2- WebListener/WebFilter...
 
@@ -61,6 +64,7 @@ N'hésitez pas à habiller vos pages avec fichier css et(ou) framework...
 NB : Utiliser le fichier Web.xml pour configurer l'accès à votre base de donnée, celle-ci sera initialisée dans la méthode init de votre servlet.
 
 **Jeudi**
+
 1- veille sur les spécifications générales ou fonctionnelles
 2- EL & JSTL
 
@@ -100,6 +104,7 @@ Voir les diagrammes de classes ci dessous :
 NB : COMMENCER PAR ENUMERER LES TACHES (POST IT) / UTILISER GIT & GITHUB(PROJECT) POUR GERER LE TRAVAIL D'EQUIPE
 
 **Vendredi**
+
 1- Spécifications techniques ou conception détaillée
 2- Attaques XSS
 
