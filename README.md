@@ -47,6 +47,7 @@ NB : Votre servlet "Controleur.java" ne doit contenir que du code java in fine e
 **Mercredi**
 
 1- veille sur l'expression des besoins et Cahier des charges
+
 2- WebListener/WebFilter...
 
 Ce petit programme est une synthèse de tout ce que nous avons vu. Il faudra proposer à l'utilisateur de saisir login + pwd, s'il existe dans la table des utilisateurs de la base de donnée WebShop, il aura accès à notre petite boutique en ligne qui affiche les articles de la table des articles qu'on peut parcourir grâce à aux boutons Suivant et Précédent :
@@ -66,9 +67,10 @@ NB : Utiliser le fichier Web.xml pour configurer l'accès à votre base de donn�
 **Jeudi**
 
 1- veille sur les spécifications générales ou fonctionnelles
+
 2- EL & JSTL
 
-*RETOUR DANS VOS GROUPE UTILISANT SCRUM CETTE FOIS-CI : DEUXIEME SPRINT*
+*RETOUR DANS VOS GROUPES UTILISANT SCRUM CETTE FOIS-CI : DEUXIEME SPRINT*
 
 Créer un projet "OnlineBank" qui doit contenir les couches Dao et Métier de votre projet Bank
 Il faut ici développer la couche Web !
