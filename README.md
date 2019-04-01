@@ -70,13 +70,21 @@ Créer un projet "OnlineBank" qui doit contenir les couches Dao et Métier de vo
 Il faut ici développer la couche Web !
 
 20.1 Tout d'abord, assurez vous que votre projet est bien opérationnel et répond donc aux spécifications fonctionnelles :
+
 ° chaque compte est défini par un code, un solde et une date de création
+
 ° un compte courant est un compte avec la particularité d’avoir un découvert
+
 ° un compte épargne est un compte avec la particularité d’avoir un taux d’intérêt
+
 ° chaque compte appartient à un client
+
 ° chaque client est défini par son code, son nom et son prénom
+
 ° chaque compte peut subir plusieurs opérations
+
 ° il existe 2 types d’opérations : versement + retrait
+
 ° une opération est définie par un numéro, une date et un montant
 
 Voir les diagrammes de classes ci dessous :
@@ -89,7 +97,7 @@ Voir les diagrammes de classes ci dessous :
 
 ![center](/onlineBank.png)
 
-NB : COMMENCER PAR ENUMERER LES TACHES (POST IT)
+NB : COMMENCER PAR ENUMERER LES TACHES (POST IT) / UTILISER GIT & GITHUB(PROJECT) POUR GERER LE TRAVAIL D'EQUIPE
 
 **Vendredi**
 1- Spécifications techniques ou conception détaillée
@@ -108,3 +116,6 @@ Démarches de recherches de stages & alternances
 [Java Platform, Enterprise Edition (Java EE) \| Oracle Technology Network | Oracle](https://www.oracle.com/technetwork/java/javaee/overview/index.html)
 
 [KooR.fr - Un ensemble de ressources pédagogiques pour la plate-forme Java EE](http://koor.fr/Java/JavaEE.wp)
+
+https://agiliste.fr/guide-de-demarrage-scrum/
+
